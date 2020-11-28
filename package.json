@@ -1,12 +1,28 @@
 {
   "name": "node",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "test npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "slavaider",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavaider/9_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slavaider/9_node/issues"
+  },
+  "homepage": "https://github.com/slavaider/9_node#readme"
 }
