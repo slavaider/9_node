@@ -45,6 +45,10 @@
 //     })
 // })
 
+// var opt  = require('optimist')
+// const message = opt.argv.message
+// console.log('hello ' + message)
+
 function getPageNameByPath(path) {
     switch (path) {
         case "/":
@@ -72,3 +76,5 @@ server.on('request', (req, res) => {
         res.end(data)
     })
 })
+
+
